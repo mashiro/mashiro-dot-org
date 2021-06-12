@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import Unity, { UnityContext } from 'react-unity-webgl'
 import styles from './Background.module.css'
 
-const BUILD_DIR = 'background'
+const BUILD_DIR = 'background-raw'
 const BUILD_NAME = 'background'
-const BUILD_EXT = '.br'
+const BUILD_EXT = ''
 
 const unityContex = new UnityContext({
   loaderUrl: `${BUILD_DIR}/${BUILD_NAME}.loader.js`,
