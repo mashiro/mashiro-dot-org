@@ -8,6 +8,10 @@
   height: 100vh;
 }
 
+.site {
+  z-index: 1;
+}
+
 .logo {
   margin-bottom: 2em;
   font-size: 200%;
